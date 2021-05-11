@@ -32,7 +32,7 @@ namespace TicketPrices
             }
             finally
             {
-                Console.WriteLine(user1.Price);
+                if (user1.Price > 0) Console.WriteLine(user1.Price);
             }
         }
 
