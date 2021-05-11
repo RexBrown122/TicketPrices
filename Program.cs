@@ -2,63 +2,51 @@
 
 namespace TicketPrices
 {
-  class Program
-  {
-    static void Main(string[] args)
+    internal class Program
     {
-      int ticketPrice = 0;
-      User user1 = new User(15, true);
-      //User user2 = new User(70, false);
-
-      // if (user1.isStudent)
-      // {
-
-      // }
-
-      // if (user1.age >= 0 || user1.age <= 12)
-      // {
-
-      // }
-
-      try
-      {
-        if (user1.age >= 0 & user1.age <= 12)
+        private static void Main(string[] args)
         {
-          // check if user is child
+            User user1 = new(-15, false);
+            try
+            {
+                //int ticketPrice = 0;
+                if (user1.Age < 0) throw new Exception();
+                if (user1.Age <= 12)
+                    user1.Price = 8;
+                else if (user1.IsStudent)
+                    user1.Price = 8;
+                // check for student
+                else if (user1.Age >= 65)
+                    user1.Price = 10;
+                // check if user is senior
+                else if ((user1.Age >= 13) & (user1.Age <= 64))
+                    user1.Price = 14;
+                // checks for regular person
+                else
+                    throw new Exception("This is an Exception");
+                // throw ex for neg or incorrect values
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+            }
+            finally
+            {
+                Console.WriteLine(user1.Price);
+            }
         }
-        else if (user1.age >= 65)
+
+        private class User
         {
-          // check if user is senior
+            public User(int age, bool isStudent)
+            {
+                Age = age;
+                IsStudent = isStudent;
+            }
+
+            public int Age { get; }
+            public bool IsStudent { get; }
+            public int Price { get; set; }
         }
-        else if (user1.isStudent)
-        {
-          // check for student
-        }
-        else if (user1.age >= 13 & user1.age <= 64)
-        {
-          // checks for regular person
-        }
-        else
-        {
-          // throw ex for neg or incorrect values
-        }
-      }
-      catch (Exception ex)
-      {
-        throw ex;
-      }
     }
-
-    class User
-    {
-      public int age { get; set; }
-      public bool isStudent { get; set; }
-
-      public User(int _age, bool _isStudent)
-      {
-        age = _age;
-        isStudent = _isStudent;
-      }
-    }
-  }
 }

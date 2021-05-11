@@ -1,0 +1,16 @@
+D:\RiderRepos\TicketPrices\obj\Debug\net5.0\TicketPrices.csprojAssemblyReference.cache
+D:\RiderRepos\TicketPrices\obj\Debug\net5.0\TicketPrices.GeneratedMSBuildEditorConfig.editorconfig
+D:\RiderRepos\TicketPrices\obj\Debug\net5.0\TicketPrices.AssemblyInfoInputs.cache
+D:\RiderRepos\TicketPrices\obj\Debug\net5.0\TicketPrices.AssemblyInfo.cs
+D:\RiderRepos\TicketPrices\obj\Debug\net5.0\TicketPrices.csproj.CoreCompileInputs.cache
+D:\RiderRepos\TicketPrices\bin\Debug\net5.0\TicketPrices.exe
+D:\RiderRepos\TicketPrices\bin\Debug\net5.0\TicketPrices.deps.json
+D:\RiderRepos\TicketPrices\bin\Debug\net5.0\TicketPrices.runtimeconfig.json
+D:\RiderRepos\TicketPrices\bin\Debug\net5.0\TicketPrices.runtimeconfig.dev.json
+D:\RiderRepos\TicketPrices\bin\Debug\net5.0\TicketPrices.dll
+D:\RiderRepos\TicketPrices\bin\Debug\net5.0\ref\TicketPrices.dll
+D:\RiderRepos\TicketPrices\bin\Debug\net5.0\TicketPrices.pdb
+D:\RiderRepos\TicketPrices\obj\Debug\net5.0\TicketPrices.dll
+D:\RiderRepos\TicketPrices\obj\Debug\net5.0\ref\TicketPrices.dll
+D:\RiderRepos\TicketPrices\obj\Debug\net5.0\TicketPrices.pdb
+D:\RiderRepos\TicketPrices\obj\Debug\net5.0\TicketPrices.genruntimeconfig.cache

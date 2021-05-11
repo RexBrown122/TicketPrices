@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "BvIPrke2697/olmnyDTCDQ3hkm3mJDyP6oHiY6GK/0uhqrq4Hn1NShiljY+hDkJiyetV/WOs6UU1j/NxsxXzFA==",
+  "dgSpecHash": "Y+CKoQIo9csXvOIZdE4pmDAc7R9td0Qbzf/uN/1mVtUOkon5TFjaJpCZMiEmPnxTDm1F5uRTK3+YnYwnPJ60dg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lntinfotech\\TicketPrices\\TicketPrices.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\RiderRepos\\TicketPrices\\TicketPrices.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kevin\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
